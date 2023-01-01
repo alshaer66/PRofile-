@@ -4,6 +4,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     transition: 0.3s;
+    direction: ltr;
 }
 
 body {
@@ -17,6 +18,39 @@ body {
 
 /* end global rules */
 /* Start styleng */
+.logo {
+    /* background-color: #205295; */
+    padding: 13px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 3px;
+
+}
+
+.logo span {
+    border-bottom: 3px solid rgb(146 233 32);
+    border-right: 3px solid #00bdc0;
+    border-radius: 6px;
+    padding: 3px;
+    color: #142850;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+
+}
+
+.logo- {
+    padding: 13px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 3px;
+    letter-spacing: 2px;
+}
+
 .contaner {
     background-image: linear-gradient(to left top,
             #205295,
@@ -26,6 +60,7 @@ body {
             #92d006);
     height: 100vh;
     display: flex;
+
 }
 
 .cont {
@@ -45,26 +80,6 @@ body {
     box-shadow: 11px 10px 25px 0px #14285091;
 }
 
-/* .cont {
-    padding: 5px;
-    background-color: #0c7a93;
-    width: 304px;
-    height: 223px;
-    margin: 2% auto;
-    border-radius: 4px;
-    box-shadow: 5px 4px 7px 2px #0c7a9323;
-    border-radius: 10%;
-}
-
-.cont:hover {
-    padding: 5px;
-    background-color: #0c7a93;
-    width: 460px;
-    height: 460px;
-    margin: 2% auto;
-    border-radius: 4px;
-    box-shadow: 5px 4px 7px 2px #0c7a9323;
-} */
 
 .imag {
     background-image: url(../images/photo_2022-12-03_21-48-22.jpg);
@@ -86,7 +101,7 @@ body {
 .name {
     font-weight: bold;
     padding: 5px;
-    width: fit-content;
+    text-align: center;
     margin: 5% auto;
     font-size: 25px;
     color: #142850;
@@ -94,8 +109,7 @@ body {
 }
 
 .ad-ic {
-    padding: 0px;
-    width: fit-content;
+    text-align: center;
     margin: -23px auto;
     font-size: 14px;
     color: #142850;
@@ -168,8 +182,7 @@ body {
 }
 
 .cont22 h3 {
-    display: flex;
-    justify-content: center;
+
     font-size: 25px;
     padding: 10px;
     color: #142850;
@@ -180,13 +193,11 @@ body {
 }
 
 .front {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 14px;
     color: #142850;
     margin-top: -30px;
     padding: 20px;
-    /* background-color: rgba(240, 248, 255, 0.162); */
     letter-spacing: 3px;
 
 }
